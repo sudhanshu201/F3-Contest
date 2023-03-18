@@ -1,0 +1,77 @@
+  /* Adding style to the body */
+  body{
+  background-color: rgba(0, 0, 0);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    border: 2px dashed white;
+    padding: 10px;
+  }
+  
+  /*Fetch button styling */
+  #fetch-data-button{
+    background-color: rgb(255, 255, 255);
+    font-weight: 700;
+    font-size: x-large;
+    color: rgb(0, 0, 0);
+    padding: 1%;
+    border-radius: 10%;
+    margin: 5%;
+  }
+
+  #fetch-data-button::hover{
+    background-color: black;
+    color: #ffffff;
+
+  }
+  /* Table styling */
+  #table-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 5% 0% 5% 0%;
+  }
+
+  #table-container h1{
+    text-decoration: underline;
+    color: #ffffff;
+  }
+  table {
+    margin: 0% 5% 5% 5%;
+    border-collapse: collapse;
+    width: 90%;
+    table-layout:fixed;
+  }
+ 
+  th, td {
+  padding: 8px;
+  }
+
+  table>tbody>tr:first-child{
+   font-size: larger;
+   font-weight: bold;
+   text-align: center;
+  }
+
+  tr:nth-child(odd) {
+   background-color: rgb(255, 255, 255);
+  }
+ 
+  tr:nth-child(even) {
+   background-color: rgb(0, 0, 0);
+   color: #ffffff;
+  }
+ 
+
+ tr:hover {
+   background-color: #ffffff41;
+ }
+ 
+
+
+ table td {  
+  border: dotted 2px rgb(255, 255, 255); 
+  width:max-content; 
+  word-wrap:break-word;}
